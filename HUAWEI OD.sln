@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "回转寿司", "回转寿�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "开源项目热榜", "开源项目热榜\开源项目热榜.vcxproj", "{AE84B449-FD23-4447-9E8D-77E6A52B3B0B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "提取字符串中最长数学表达式", "提取字符串中最长数学表达式\提取字符串中最长数学表达式.vcxproj", "{F944AB69-02E3-40DF-8828-AFFD141C90CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{AE84B449-FD23-4447-9E8D-77E6A52B3B0B}.Release|x64.Build.0 = Release|x64
 		{AE84B449-FD23-4447-9E8D-77E6A52B3B0B}.Release|x86.ActiveCfg = Release|Win32
 		{AE84B449-FD23-4447-9E8D-77E6A52B3B0B}.Release|x86.Build.0 = Release|Win32
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Debug|x64.ActiveCfg = Debug|x64
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Debug|x64.Build.0 = Debug|x64
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Debug|x86.Build.0 = Debug|Win32
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x64.ActiveCfg = Release|x64
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x64.Build.0 = Release|x64
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x86.ActiveCfg = Release|Win32
+		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
