@@ -19,13 +19,31 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <algorithm>
 using namespace std;
 
-constexpr int MAX_WEIGHT_LENGTH = 5;
+constexpr int MAX_STATS_LENGTH = 5;
 
-static int compute_hot(const vector<int>& weights)
+static void compute_hot(const map<string, vector<int>>& project_scores, const vector<int>& stats_weights, vector<pair<string, int>>& project_hots)
 {
+    for (const auto& pair_t : project_scores)
+    {
+        int h = 0;
+        for (int i = 0; i < MAX_STATS_LENGTH; ++i)
+        {
+            h += pair_t.second[i] * stats_weights[i];
+        }
+        project_hots.push_back({ pair_t.first, h });
+    }
+}
 
+static void sort_project_by_hot(const map<string, vector<int>>& project_scores, const vector<int>& stats_weights, vector<pair<string, int>>& project_hots)
+{
+    
+    compute_hot(project_scores, stats_weights, project_hots);
+    stable_sort(project_hots.begin(), project_hots.end(), [](const pair<string, int>& a, const pair<string, int>& b) {
+        return a.second > b.second;
+        });
 }
 
 int main()
@@ -37,28 +55,42 @@ int main()
     cin >> n;
     map<string, vector<int>> project_scores;
 
+    vector<int> stats_weights(MAX_STATS_LENGTH);
 #ifdef DEBUG
     cout << "输入各个项目的权重：" << endl;
 #endif // DEBUG
 
-    for (int i = 0; i < MAX_WEIGHT_LENGTH; ++i)
+    for (int i = 0; i < MAX_STATS_LENGTH; ++i)
     {
-
+        cin >> stats_weights[i];
     }
     
 #ifdef DEBUG
-    cout << "输入项目 watch star fork issue mr：" << endl;
+    cout << "输入项目的 name watch star fork issue mr：" << endl;
 #endif // DEBUG
     for (int i = 0; i < n; ++i)
     {
         vector<int> scores(n);
         string name;
         cin >> name;
-        for (int j = 0; j < MAX_WEIGHT_LENGTH; ++j)
+        for (int j = 0; j < MAX_STATS_LENGTH; ++j)
         {
             cin >> scores[j];
         }
         project_scores.insert({ name, scores });
+    }
+
+    vector<pair<string, int>> project_hots;
+    sort_project_by_hot(project_scores, stats_weights, project_hots);
+
+
+#ifdef DEBUG
+    cout << "按照热度降序的开源项目的名字：" << endl;
+#endif // DEBUG
+
+    for (const auto& pair_t : project_hots)
+    {
+        cout << pair_t.first << endl;
     }
     return 0;
 }
