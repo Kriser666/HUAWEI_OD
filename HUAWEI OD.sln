@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "螺旋数字矩阵", "..\螺旋数字矩阵\螺旋数字矩阵.vcxproj", "{60890597-A687-4179-8340-20F9F36CB377}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最富裕的小家庭", "..\最富裕的小家庭\最富裕的小家庭.vcxproj", "{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长子字符串的长度（一）", "最长子字符串的长度（一）\最长子字符串的长度（一）.vcxproj", "{C9A56150-7170-49F3-8794-6BE2080053EF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "找座位", "找座位\找座位.vcxproj", "{4F9A1200-F5BC-47A8-9930-4668508B00F8}"
@@ -23,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "开源项目热榜", "开�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "提取字符串中最长数学表达式", "提取字符串中最长数学表达式\提取字符串中最长数学表达式.vcxproj", "{F944AB69-02E3-40DF-8828-AFFD141C90CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "螺旋数字矩阵", "螺旋数字矩阵\螺旋数字矩阵.vcxproj", "{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最富裕的小家庭", "最富裕的小家庭\最富裕的小家庭.vcxproj", "{E811A811-EB3B-47A3-9E2A-F58A66FADB99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,22 +31,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60890597-A687-4179-8340-20F9F36CB377}.Debug|x64.ActiveCfg = Debug|x64
-		{60890597-A687-4179-8340-20F9F36CB377}.Debug|x64.Build.0 = Debug|x64
-		{60890597-A687-4179-8340-20F9F36CB377}.Debug|x86.ActiveCfg = Debug|Win32
-		{60890597-A687-4179-8340-20F9F36CB377}.Debug|x86.Build.0 = Debug|Win32
-		{60890597-A687-4179-8340-20F9F36CB377}.Release|x64.ActiveCfg = Release|x64
-		{60890597-A687-4179-8340-20F9F36CB377}.Release|x64.Build.0 = Release|x64
-		{60890597-A687-4179-8340-20F9F36CB377}.Release|x86.ActiveCfg = Release|Win32
-		{60890597-A687-4179-8340-20F9F36CB377}.Release|x86.Build.0 = Release|Win32
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Debug|x64.ActiveCfg = Debug|x64
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Debug|x64.Build.0 = Debug|x64
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Debug|x86.ActiveCfg = Debug|Win32
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Debug|x86.Build.0 = Debug|Win32
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Release|x64.ActiveCfg = Release|x64
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Release|x64.Build.0 = Release|x64
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Release|x86.ActiveCfg = Release|Win32
-		{1BA4FD26-5274-446F-AC86-7D1E43B56BA8}.Release|x86.Build.0 = Release|Win32
 		{C9A56150-7170-49F3-8794-6BE2080053EF}.Debug|x64.ActiveCfg = Debug|x64
 		{C9A56150-7170-49F3-8794-6BE2080053EF}.Debug|x64.Build.0 = Debug|x64
 		{C9A56150-7170-49F3-8794-6BE2080053EF}.Debug|x86.ActiveCfg = Debug|Win32
@@ -111,6 +95,22 @@ Global
 		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x64.Build.0 = Release|x64
 		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x86.ActiveCfg = Release|Win32
 		{F944AB69-02E3-40DF-8828-AFFD141C90CE}.Release|x86.Build.0 = Release|Win32
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Debug|x64.ActiveCfg = Debug|x64
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Debug|x64.Build.0 = Debug|x64
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Debug|x86.ActiveCfg = Debug|Win32
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Debug|x86.Build.0 = Debug|Win32
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Release|x64.ActiveCfg = Release|x64
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Release|x64.Build.0 = Release|x64
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Release|x86.ActiveCfg = Release|Win32
+		{736AF776-EB1C-4FF2-9681-2217C0CB4AA7}.Release|x86.Build.0 = Release|Win32
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Debug|x64.ActiveCfg = Debug|x64
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Debug|x64.Build.0 = Debug|x64
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Debug|x86.ActiveCfg = Debug|Win32
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Debug|x86.Build.0 = Debug|Win32
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x64.ActiveCfg = Release|x64
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x64.Build.0 = Release|x64
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x86.ActiveCfg = Release|Win32
+		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
