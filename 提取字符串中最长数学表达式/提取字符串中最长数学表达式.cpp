@@ -12,11 +12,25 @@
 //输出：
 //表达式值
 
-#include <iostream>
+#include <iostream>  
+#include <string>
+#include "LexicalAnalyzer.h"
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    string input;
+#ifdef DEBUG
+    cout << "Enter the string: ";
+#endif // DEBUG
+    cin >> input;
+    LexicalAnalyzer lexicalAnalyzer(input);
+    long value = lexicalAnalyzer.get_max_expr_value(input);
+#ifdef DEBUG
+    cout << "最长表达式为：" << lexicalAnalyzer.get_max_expr() << endl;
+    cout << "值为：";
+#endif // DEBUG
+    cout << value;
+    return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

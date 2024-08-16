@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="提取字符串中最长数学表达式.cpp">
+    <ClCompile Include="机器人搬砖.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LexicalAnalyzer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LexicalAnalyzer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

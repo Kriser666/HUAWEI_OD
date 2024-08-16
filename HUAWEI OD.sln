@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "螺旋数字矩阵", "螺�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最富裕的小家庭", "最富裕的小家庭\最富裕的小家庭.vcxproj", "{E811A811-EB3B-47A3-9E2A-F58A66FADB99}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "机器人搬砖", "机器人搬砖\机器人搬砖.vcxproj", "{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x64.Build.0 = Release|x64
 		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x86.ActiveCfg = Release|Win32
 		{E811A811-EB3B-47A3-9E2A-F58A66FADB99}.Release|x86.Build.0 = Release|Win32
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Debug|x64.ActiveCfg = Debug|x64
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Debug|x64.Build.0 = Debug|x64
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Debug|x86.ActiveCfg = Debug|Win32
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Debug|x86.Build.0 = Debug|Win32
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Release|x64.ActiveCfg = Release|x64
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Release|x64.Build.0 = Release|x64
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Release|x86.ActiveCfg = Release|Win32
+		{07FBE5B4-79C6-420D-A019-3DF5FCA4C14C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
